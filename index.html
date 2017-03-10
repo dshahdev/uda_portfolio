@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+    <link rel="stylesheet"  href="css/mycss.css">
+    <link rel="stylesheet"  href="css/responsive.css">
+
+
+
+
+
+</head>
+
+<body>
+    <!-- <header class="headings">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div>
+                        <img class="logo" src="img/logo.png" alt="udacity_logo" />
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div class="name-div">
+                        <h1 class="my-name">Darshana Shah</h1>
+                        <h4 class="occupation">Front-end developer</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+     <header class="headings">
+        <div class="header_inner">
+            <h1 class="my-name">Darshana Shah</h1>
+
+            <p class="proverb"><strong>BIG JOURNEYS</strong> begin with small steps.... </p>
+            <div >
+                <a id="menu" class="header__menu mySvgSpace">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+                  </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav id="drawer" class="nav">
+        <ul class="nav_list">
+            <li class="nav__item"><a href="#" id="about">About</a></li>
+            <li class="nav__item"><a href="#">Resume</a></li>
+            <li class="nav__item"><a href="#" id="contact">Contact</a></li>
+
+
+        </ul>
+    </nav>
+   <!--  <hr/> -->
+
+    <hr class="line" />
+
+    <main>
+        <section class="container">
+                <div class=" row col-12"><h2 class="myDiv">Skills</h2></div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="main skills">
+                            <table class="decorTable">
+                                <tr>
+                                    <td>JS</td>
+                                    <td></td>
+                                    <td>NodeJS</td>
+                                    <td>AngularJS</td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>CSS3</td>
+                                    <td colspan="2"></td>
+                                    <td>Database</td>
+                                </tr>
+                                <tr>
+                                    <td>Java</td>
+                                    <td colspan="2"></td>
+                                    <td>@media</td>
+                                    <td>RestFul</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                    <td>Bootstrap</td>
+                                    <td colspan="2"></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td colspan="2">RequireJS</td>
+                                    <td>Ajax</td>
+                                    <td>Git</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" row col-12"><h2 class="myDiv">Projects</h2></div>
+                    <div class="row">
+                         <div class="col-12 project_1">
+                            <h2 class="myDiv">Project1</h2>
+                                <ul class="project_details">
+                                    <li>It is a recipe of homemade Peach Ice Cream, introduced by James Parkes.</li>
+                                    <li>Using given ingredients and direction, you can also make homemade Peach Ice Cream at home and Enjoy....</li>
+                                </ul>
+
+                                <h2 class="proj_margin">Link: <a href="projects/making-peach-ice-cream/index.html">Peach-Ice Cream</a></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                     <div class="col-12 project_2">
+                        <h2 class="myDiv">Project2</h2>
+                            <ul class="project_details">
+                                <li>It is a webpage of "The Brighton Times" from the UK.</li>
+                                <li>It serves breaking news along with scores, weather details top news and latest news</li>
+                            </ul>
+
+                            <h2 class="proj_margin">Link: <a href="projects/Brighton_Times/index.html">Brighton Times</a></h2>
+                    </div>
+                </div>
+
+                <div class=" row col-12"><h2 class="myDiv">My Hobbies</h2></div>
+                <div class="row">
+                    <div id="dancePic" class="col-4 image_divs">
+                        <img  class="myImgs" src="img/dance_small.jpg" alt="Indian classical dance steps" />
+                        <div><h3 class="myDiv">Indian Classical Dance </h3></div>
+                    </div>
+                    <div id="musicPic" class="col-4 image_divs">
+                         <img class="myImgs" src="img/music_small.jpg" alt="Indian classical music instruments" />
+                         <div><h2 class="myDiv">Indian Classical Musics</h2></div>
+                    </div>
+                    <div class="col-4 image_divs">
+                         <img class="myImgs" src="img/tracks_small.jpg" alt="Tracks" />
+                         <div><h2 class="myDiv">Running Tracks</h2></div>
+                    </div>
+
+                </div>
+        </section>
+
+        <!-- Modals -->
+        <section id="modalSec_1">
+            <div id="myModal1" class="modal">
+               <!-- Modal content -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>Contact</h2>
+                </div>
+                <div class="modal-body">
+                    <div  class="myfont-style myInfo">
+                        <h1>Darshana Shah</h1>
+                        <h2>973-978-2936</h2>
+                        <h3>dshahnj@gmail.com</h3>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section id="modalSec_2">
+            <div id="myModal2" class="modal">
+               <!-- Modal content -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>About</h2>
+                </div>
+                <div class="modal-body">
+                <div  class="myfont-style">
+                    <h3>My name is <strong>Darshana Shah,</strong> a <em>Jr. Front End Developer</em>.</h3>
+                    <h3>I am passionate about learning new skills and front end programming.</h3>
+                    <h3><em>Dancing,</em><em> Music</em> and  <em>Sports</em> are my other preferences in life.
+                    </h3>
+                    <h3 > <span class="mantra">Hardwork </span> and <span class="mantra">Never give up </span> are my <em>"Guru-Mantra".</em></h3>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section id="modalSec_3">
+                <div id="myModal3" class="modal">
+
+               <!-- Modal content -->
+                    <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                              <h3 class="myDiv">Inidan Classical Dance</h3>
+                            </div>
+                        <div class="modal-body">
+                                <div class="displayImg">
+                                    <img  class="myImages" src="img/dance_small.jpg" alt="Indian classical dance steps" />
+                                </div>
+
+                                <div  class="myfont-style myInfo ">
+                                    <h2>Bharatanatyam</h2>
+                                    <p>Bharatanatyam is one of the styles of Indian Classical Dances. It is an heritage of India and regarded as a mother of many other Indian classical dance forms.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="modalSec_4">
+            <div id="myModal4" class="modal">
+               <!-- Modal content -->
+              <div class="modal-content">
+                 <div class="modal-header">
+                      <span class="close">&times;</span>
+                      <h2>Indian Classical Music</h2>
+                 </div>
+                 <div class="modal-body">
+                    <div class="displayImg">
+                        <img  class="myImages" src="img/music_small.jpg" alt="Indian classical music instruments" />
+                    </div>
+
+                    <div  class="myfont-style myInfo ">
+                        <h2>Sitar</h2>
+                        <p>Sitar, stringed instrument of the lute family that is popular in northern India, Pakistan, and Bangladesh. The word sitar is derived from the Persian word sehtar, meaning “three-stringed.” The instrument appears to have descended from long-necked lutes taken to India from Central Asia.</p>
+
+                        <h4>Reference :https://www.britannica.com/art/sitar </h4>
+
+                    </div>
+                 </div>
+              </div>
+            </div>
+        </section>
+
+            <script src="js/hamburgerScript.js"></script>
+            <script src="js/modal_script.js"></script>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

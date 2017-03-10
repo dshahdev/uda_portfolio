@@ -1,0 +1,330 @@
+
+* {
+   /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;*/
+    box-sizing: border-box;
+}
+
+/*heading*/
+
+.headings {
+    min-height:100px;
+    /*background-color: #a994b7;*/
+    background-color: #2a042b;
+    color:white;
+}
+.header_inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.proverb {
+    font-family: Arial;
+    font-style: italic;
+    padding-top: :5px;
+    margin-left:15px;
+    color: #b65fb9;
+}
+
+/* navigation */
+
+.nav {
+    width: 100%;
+    margin-left: auto;
+    margin-top: auto;
+
+
+}
+.nav_list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__item {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    width: 24%;
+    text-align: center;
+    padding: 24px;
+    text-transform: uppercase;
+}
+
+.nav a {
+
+    text-decoration: none;
+
+    color: #2a042b;
+    padding: 1.5em;
+
+}
+.nav a:hover {
+    text-decoration: underline;
+    color: #b65fb9;
+}
+
+.mySvgSpace{
+    margin-top:-50px;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name-div {
+    float: right;
+}
+
+
+
+.my-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 30px;
+    padding: 0;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+.occupation {
+    padding-top:0;
+    margin-top: -17px;
+    font-size: 1.3em;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-left: 40%;
+}
+
+
+.headings {
+    max-width: 100%;
+    background-color: #2a042b;
+    color: white;
+    overflow: hidden;
+}
+
+.line {
+    width: 98%;
+    border: solid 2px lightgray !important;
+}
+
+
+
+.myImgs {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.image_divs {
+    margin-right: 15px;
+    padding-left: 8px;
+}
+
+
+.myDiv{
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    margin-left:15px;
+
+    color: navy;
+    width: 100%;
+}
+
+/** The Modal (background) */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* skills */
+
+.main {
+    box-sizing: border-box;
+    width: 99%;
+    height: 300px;
+   /* box-shadow: 20px 10px 6px rgba(0, 0, 2, 0.26);*/
+}
+
+.skills {
+    /*background-color: #4f2151;*/
+    background-color: #6d3570;
+    box-shadow: 10px 10px 6px rgba(0, 0, 2, 0.26);
+}
+
+.decorTable{
+    width: 100%;
+    height:300px;
+    color:white;
+    font-size: 32px;
+}
+
+td {
+    cursor:pointer;
+
+}
+
+td:hover {
+
+    /*color: #ad72af;*/
+    color: #f7cd11;
+}
+
+/* Project Sections */
+.project_1 {
+    background-color: #f7eef7;
+    color: #b65fb9;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 6px rgba(0, 0, 2, 0.26);
+
+}
+.project_2 {
+    background-color: #b65fb9;
+    color: #f7eef7;
+    box-shadow: 10px 10px 6px rgba(0, 0, 2, 0.26);
+}
+
+.project_details {
+    text-align: left;
+    font-weight: 20px;
+    padding-top: 15px ;
+    padding-bottom: 25px;
+}
+.proj_margin {
+    padding-left: 10px;
+}
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #a994b7;
+    width: 28%;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    /*-webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;*/
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+/*@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}*/
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #2a042b;;
+    color: #a994b7;
+}
+
+.modal-body {
+    padding: 2px 16px;
+    color: #2a042b;
+}
+
+.modal-body > h1 {
+    text-align: center;
+}
+
+.myfont-style {
+
+    font-family:"Roboto", sans-serif;;
+    text-decoration-style: none;
+    list-style-type: none;
+    color: #2a042b;
+    font-weight: bold;
+    text-align: center;
+}
+
+.myImage {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        align-items: center;
+}
+
+footer {
+
+    height:50px;
+    background-color: #2a042b;
+}
+
+.row {
+    width: 100%;
+    display:flex;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+}
+

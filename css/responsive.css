@@ -1,0 +1,195 @@
+.header__menu {
+    display: none;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 468px) {
+
+
+     .nav {
+       /* z-index: 10;*/
+        background-color: #fff;
+        width: 300px;
+        position: absolute;
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+
+    .nav.open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .nav__item {
+        width: 100%;
+        display: list-item;
+        text-align: left;
+        border-bottom: 1px solid #E0E0E0;
+
+    }
+
+     .header__menu {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        padding: 1em;
+    }
+
+    .header__menu svg {
+        width: 32px;
+        fill: #E0E0E0;
+    }
+
+    .my-name {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.6em;
+        padding-bottom: 0;
+        text-transform: uppercase;
+
+
+    }
+
+    .name-div {
+        margin-left: 50px;
+    }
+
+    .occupation {
+        padding-top:0;
+        margin-top: -17px;
+        font-size: .7em;
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        margin-left: 40%;
+    }
+
+    .myDiv {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.3em;
+
+    }
+
+    .titles {
+        font-family: "Roboto", sans-serif;
+        font-size: 1em;
+        font-weight: bolder;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .myfont-style {
+
+        font-family: "arial";
+        list-style-type: none;
+        color: #2a042b;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .myInfo > h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .displayImg > img{
+        display: none;
+    }
+
+    .modal-content {
+        height: 70%;
+         width: 80%;
+    }
+
+    .decorTable{
+        width: 100%;
+        height:300px;
+        color:white;
+        font-size: 1em;
+    }
+
+    .nav a:hover {
+        text-decoration: underline;
+        color: #b65fb9;
+    }
+
+
+}
+
+@media screen and (min-width: 469px){
+
+    .decorTable{
+        width: 100%;
+        height:300px;
+        color:white;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .myfont-style {
+
+        font-family: "arial";
+        list-style-type: none;
+        color: #2a042b;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .myInfo > h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .myImages {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-left: 15%;
+    }
+
+    .decorTable{
+        width: 100%;
+        height:300px;
+        color:white;
+        font-size: 1.7em;
+    }
+    .modal-content {
+        height: 70%;
+         width: 80%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+     main, .header__inner, .nav, .container {
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+     .myImages {
+        display: block;
+        /*margin-right: auto;
+        margin-left: auto;*/
+        margin-top: 5px;
+        margin-left: 25%;
+    }
+
+    .modal-content {
+        height: 70%;
+         width: 60%;
+    }
+    .myDiv {
+        font-size: 1.7em;
+    }
+
+
+}
