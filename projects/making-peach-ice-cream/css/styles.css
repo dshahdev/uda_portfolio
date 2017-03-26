@@ -12,8 +12,8 @@ body {
 	background: url(../img/paper.png) repeat-y;
 	width:980px;
 	margin:0;
-	
-	 
+
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Helpers */
 .clearfix {
-	/* you'll learn more about this later in the positioning lesson */
+
 	clear: both;
 }
 
@@ -59,8 +59,8 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 25px;
 	width: 800px;
 	margin:0 auto;
-	
-	
+
+
 }
 
 .recipe-summary {
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 50%;
 }
 
-/* Responsiveness. You'll learn more about this in Responsive Web Design Fundamentals! */
+/* Responsiveness. */
 @media (max-width: 800px) {
 	.recipe,
 	.recipe-image,
