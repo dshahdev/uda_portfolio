@@ -124,9 +124,12 @@
     height: auto;
 }
 
-
+.img_divs {
+    cursor: pointer;
+}
 
 .image_divs {
+
     margin-right: 15px;
     padding-left: 8px;
 }
@@ -136,8 +139,6 @@
     font-family: "Roboto", sans-serif;
     font-size: 2em;
     margin-left:15px;
-
-    color: navy;
     width: 100%;
 }
 
